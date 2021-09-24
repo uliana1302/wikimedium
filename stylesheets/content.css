@@ -1,0 +1,9 @@
+article img + article ul { margin-top: 77px;
+}
+article ul {
+  list-style-type: disc;
+}
+a { color: inherit;
+}
+article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
+}
