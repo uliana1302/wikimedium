@@ -31,3 +31,6 @@ nav ul > ul {
   margin-left: 10px;
   color: #777;
 }
+nav li {
+  width: 300px;
+}
