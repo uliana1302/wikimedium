@@ -1,7 +1,7 @@
 nav {
   width: 300px;
   position: fixed;
-  top: 20px;
+  top: 90px;
   left: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -11,11 +11,6 @@ nav {
 nav:hover {
   opacity: 1;
   transition: all .1s ease;
-}
-nav p {
-  margin: 0;
-  font-weight: bold;
-  font-size: 14px;
 }
 nav a {
   text-decoration: none;
@@ -31,6 +26,11 @@ nav li {
 nav ul > ul {
   margin-left: 10px;
   color: #777;
+}
+nav > ul > li:first-of-type {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
 }
 nav li {
   width: 300px;
