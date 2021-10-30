@@ -1,0 +1,25 @@
+/* сайдбар пропадает на вьюпорте шириной меньше 1340px */
+@media all and (max-width: 1340px) {
+ .sidebar {
+  display: none;
+ }
+}
+/* растягиваем изображение на полный экран на вьюпорте шириной меньше 1020px */
+@media all and (max-width: 1020px) {
+ article img { width: 100%; }
+}
+/* отступы по 20px с каждой стороны */
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  article > * { width: calc(100% - 60px); }
+}
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  body { min-width: 320px; }
+  article > * { width: calc(100% - 40px); }
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+ .sidebar { display: none; }
+}
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  article > * { width: calc(100% - 300px);
+ .sidebar { display: none; }
+}
