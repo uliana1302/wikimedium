@@ -1,6 +1,9 @@
+/* подключаем первым ресет */
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 @import 'layout.css';
 @import 'sidebar.css';
 @import 'content.css';
+@import 'index.css';
+/* подключаем последним адаптив */
 @import 'responsive.css';
