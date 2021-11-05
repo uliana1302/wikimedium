@@ -12,6 +12,9 @@ article > * { width: 700px; margin: 0 auto};
 article ul {
   list-style: disc;
 }
+article ol {
+  list-style: decimal;
+}
 article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
 }
 article h1, article h2, article h3, article h4 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
@@ -55,7 +58,4 @@ article h2 + img { margin-top: 82px;
 article h3 + img { margin-top: 81px;
 }
 article h4 {margin-top: 36px; font-size: 26px; line-height: 32px; color: rgba(0, 0, 0, .8);
-}
-article ol {
-  list-style-type: decimal;
 }
