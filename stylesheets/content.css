@@ -10,7 +10,7 @@ article img + article ul { margin-top: 77px;
 /* > * заменяет все селекторы (элементы) */
 article > * { width: 700px; margin: 0 auto};
 article ul {
-  list-style-type: disc;
+  list-style: disc;
 }
 article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
 }
