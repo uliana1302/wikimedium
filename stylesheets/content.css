@@ -8,9 +8,9 @@
 article img + article ul { margin-top: 77px;
 }
 /* > * заменяет все селекторы (элементы) */
-article > * { width: 700px; margin: 0 auto};
+article > * { width: 700px; margin: 0 auto;}
 article ul {
-  list-style: disc;
+  list-style-type: disc;
 }
 article ol {
   list-style: decimal;
